@@ -1,3 +1,12 @@
+# Fuzzing
+
+Fuzz harnesses I wrote for pinocchio in 2025, back when it was a side project by an Anza dev.
+
+Five cargo-fuzz targets in `fuzz/fuzz_targets/`. The main one is `fuzz_deserialize`: it builds an SBF
+input buffer, runs pinocchio's entrypoint deserializer over it, and diffs the result against
+`solana-program`. The rest cover account info, CPI, instructions, and syscalls.
+
+
 <h1 align="center">
   <code>pinocchio</code>
 </h1>

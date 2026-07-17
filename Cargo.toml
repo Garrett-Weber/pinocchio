@@ -8,6 +8,7 @@ members = [
     "programs/token-2022",
     "sdk",
 ]
+exclude = ["fuzz"]
 
 [workspace.package]
 edition = "2021"
