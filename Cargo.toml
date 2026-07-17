@@ -11,6 +11,7 @@ members = [
     "sdk/pinocchio",
     "sdk/pubkey",
 ]
+exclude = ["fuzz"]
 
 [workspace.package]
 edition = "2021"

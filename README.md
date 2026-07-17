@@ -1,3 +1,9 @@
+# Fuzzing
+
+My previously private fork of pinnocchio to add fuzzing back when it was a side project by an Anza dev. 
+Just a toy project, no guarantee this even works
+
+
 <h1 align="center">
   <code>pinocchio</code>
 </h1>
